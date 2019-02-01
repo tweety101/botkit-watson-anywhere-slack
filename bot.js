@@ -52,7 +52,7 @@ var webcontroller = Botkit.socketbot(bot_options);
 var webserver = require(__dirname + '/components/express_webserver.js')(webcontroller);
 
 // Load in some helpers that make running Botkit on Glitch.com better
-require(__dirname + '/components/plugin_glitch.js')(webcontroller);
+// require(__dirname + '/components/plugin_glitch.js')(webcontroller);
 
 // Load in a plugin that defines the bot's identity
 require(__dirname + '/components/plugin_identity.js')(webcontroller);
